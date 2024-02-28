@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  /* required for sticky elements: HeaderMobile, and so on */
+  max-height: 100vh;
+  background-color: rgba(199, 199, 189, 0.199) !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.background {
+  background-color: rgba(199, 199, 189, 0.199);
+}
+
+.mui-1xkz0he-MuiResponsiveChart-container {
+  overflow: unset !important;
+}
+.mui-1xkz0he-MuiResponsiveChart-container > svg {
+  width: 90% !important;
+  position: absolute !important;
+  top: -20px;
+}
+
+.mui-zqjp58-MuiChartsSurface-root {
+  border-radius: 10px !important;
+}
+
+.mui-6r76f2-MuiChartsSurface-root {
+  border-radius: 10px !important;
+}
+
+.mui-szo83e-MuiChartsSurface-root {
+  border-radius: 10px !important;
+}
+
+@media (max-width: 1157px) {
+  .table_container {
+    margin-left: 6rem !important;
+  }
+}
+
+.table_container {
+  max-width: 100%;
+  display: flex;
+  margin: 6rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10rem;
+}
+
+.badge_container {
+  display: 'flex';
+  flex-flow: 'row wrap';
+  margin-left: '50px';
+  margin-top: '50px';
+}
+
+@media only screen and (max-width: 1440px) {
+  .team-photo-card {
+    width: 50%;
+  }
+  .badge_container {
+    gap: 30px;
+  }
+
+  .line-chart,
+  .bar,
+  .line-3 {
+    width: 31% !important;
+  }
+  .mui-1xkz0he-MuiResponsiveChart-container > svg {
+    width: 80% !important;
+    left: 4%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .line-chart,
+  .bar,
+  .line-3 {
+    width: 31% !important;
+  }
+  .mui-1xkz0he-MuiResponsiveChart-container > svg {
+    width: 92% !important;
+    left: 4%;
+  }
+  .badge_container {
+    margin-left: 20px !important;
+  }
+
+  .mui-1xkz0he-MuiResponsiveChart-container {
+    width: 325px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .badge_container {
+    justify-content: space-around;
+  }
+  .mui-1xkz0he-MuiResponsiveChart-container > svg {
+    width: 62% !important;
+    left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1920px) {
+  .badge_container {
+    gap: 5rem !important;
+  }
+
+  .data_container {
+    gap: 8rem !important;
+  }
+}

@@ -1,0 +1,12 @@
+.bar {
+  margin-right: 20px !important;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  line-height: 1.5em;
+}
+
+.bar_footer {
+  margin-left: 50px;
+  line-height: 1.7;
+}
