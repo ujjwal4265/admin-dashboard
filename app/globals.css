@@ -25,7 +25,22 @@ a {
 .mui-1xkz0he-MuiResponsiveChart-container {
   overflow: unset !important;
 }
+
+.mui-1ghv2wx {
+  overflow: unset !important;
+}
+
+.mui-1ghv2wx-container {
+  overflow: unset !important;;
+}
+
 .mui-1xkz0he-MuiResponsiveChart-container > svg {
+  width: 90% !important;
+  position: absolute !important;
+  top: -20px;
+}
+
+.mui-1ghv2wx > svg {
   width: 90% !important;
   position: absolute !important;
   top: -20px;
@@ -82,6 +97,11 @@ a {
     width: 80% !important;
     left: 4%;
   }
+
+  .mui-1ghv2wx > svg {
+    width: 80% !important;
+    left: 4%;
+  }
 }
 @media only screen and (max-width: 1366px) {
   .line-chart,
@@ -93,11 +113,19 @@ a {
     width: 92% !important;
     left: 4%;
   }
+  .mui-1ghv2wx > svg {
+    width: 74% !important;
+    left: 4%;
+  }
   .badge_container {
     margin-left: 20px !important;
   }
 
   .mui-1xkz0he-MuiResponsiveChart-container {
+    width: 325px !important;
+  }
+
+  .mui-1ghv2wx-container {
     width: 325px !important;
   }
 }
@@ -110,14 +138,19 @@ a {
     width: 62% !important;
     left: 3%;
   }
+
+  .mui-1ghv2wx > svg {
+    width: 50% !important;
+    left: 3%;
+  }
 }
 
 @media only screen and (min-width: 1700px) and (max-width: 1920px) {
   .badge_container {
-    gap: 5rem !important;
+    gap: 1.5rem !important;
   }
 
   .data_container {
-    gap: 8rem !important;
+    gap: 1.5rem !important;
   }
 }
